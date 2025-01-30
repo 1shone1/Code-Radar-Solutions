@@ -1,9 +1,8 @@
 #include <stdio.h>
-int main() {
+int min(){
     int a;
     scanf("%d",&a);
-    if(a&==1){
-
+    if(a&1==1){
         printf("Set");
     }
     else{
