@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main() {
-    printf("Enter a number:");
-    scanf(%d, &number);
-    if (number & 1){
-        printf("The lsb of %d is 1 (number is odd).\n", number);
-  } else {
-    ("The lsb of %d is 0 (number is even).\n", number);
-  }
+    int a;
+    scanf("%d", &number);
+    if(a&==1){
+        printf("set")
+    }
+    else{
+        printf("not set")
+    }
     return 0;
 }
