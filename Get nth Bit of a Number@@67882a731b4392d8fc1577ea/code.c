@@ -5,11 +5,7 @@ int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     a = a>>b;
-    if(a&1==1){
-        printf("%d",a);
-    }
-    else{
-        printf("%d",a);
-    }
+    printf("%d",a&1);
+    
     return 0;
 }
