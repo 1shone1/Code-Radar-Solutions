@@ -1,8 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    int a;
-    scanf("%d",a);
-    printf("%d",~a);
+    int a,count;
+    scanf("%d",&a);
+    count = 0;
+    while(a!=0){
+        if((a&a)==1){
+            break;
+        }
+        a = a>>1;
+        count++;
+    }
+    printf("%d",count);
     return 0;
 }
+    
