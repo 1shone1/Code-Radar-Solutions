@@ -5,5 +5,6 @@ int main(){
     if(a>b);
     printf("Output the greater");
     else{
-        (a>b)}
+        printf(a>b);}
+        return 0;
     }
